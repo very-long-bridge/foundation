@@ -1,0 +1,51 @@
+header {
+  grid-area: header;
+  border-bottom: .6em  solid rgba(2,159,199,.8);
+}
+main {grid-area: main;}
+footer {grid-area: footer;}
+
+ footer{
+
+  border-top: .6em  solid rgb(224, 224, 76);
+}
+
+.app {
+  height: 100vh;
+  background: #FAFAFA;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+
+header, footer, main {
+  padding: 2em 0;
+}
+
+.tab-button {
+  border: none;
+  font-size: 1em;
+  width: 50px
+}
+.tab-button:hover{
+  box-shadow: .1em .1em  2px 1px rgba(2,159,199,.8);
+
+  
+}
+
+.tab-content {
+  display: none;
+  min-height: 50%;
+}
+
+.main-content .column {
+  margin-top: 4em;
+}
+.active {
+  display: block;
+}
+

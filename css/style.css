@@ -1,13 +1,16 @@
 header {
   grid-area: header;
-  border-bottom: .6em  solid rgba(2,159,199,.8);
+  border-bottom: .2em  solid rgba(2,159,199,.8);
+  padding: 2em 0;
 }
-main {grid-area: main;}
-footer {grid-area: footer;}
+main {
+  grid-area: main;
+}
 
- footer{
-
-  border-top: .6em  solid rgb(224, 224, 76);
+footer {
+  grid-area: footer;
+  border-top: .2em  solid rgb(224, 224, 76);
+  padding: 2.5em 0;
 }
 
 .app {
@@ -22,19 +25,13 @@ footer {grid-area: footer;}
     'footer';
 }
 
-header, footer, main {
-  padding: 2em 0;
-}
-
 .tab-button {
   border: none;
   font-size: 1em;
-  width: 50px
+
 }
 .tab-button:hover{
   box-shadow: .1em .1em  2px 1px rgba(2,159,199,.8);
-
-  
 }
 
 .tab-content {
@@ -45,7 +42,16 @@ header, footer, main {
 .main-content .column {
   margin-top: 4em;
 }
+
 .active {
   display: block;
 }
 
+.list{
+  font-size: 1.3em; 
+  margin-left: 1em;
+}
+
+.paragraph{
+  font-size: 1.3em; 
+}

@@ -8,3 +8,8 @@ tabButtons.forEach(btn => btn.addEventListener('click', (e)=> {
   tabContents.forEach(cnt => cnt.classList.remove('active'));
   tabContent.classList.add('active');
 }));
+
+
+const stripe = Stripe('pk_test_51KZ3XgJJZxZxTvpztPCpOsycxZbY95RHlHdvKC7vDZtzxFjoQwS31U4lBv58ZKsVtY0OpNsCYIUYHEiAVNzVRoqf00ku3ntyYg');
+
+console.log(stripe);

@@ -1,0 +1,60 @@
+.tab-content {
+  
+  display: none;
+  min-height: 50%;
+  
+}
+.tab-content.active{
+  display: block;
+  grid-area: content;
+  width: 65%;
+  margin-bottom: 3em;
+  flex-basis: auto;
+}
+
+/* .main-content{
+  position: relative;
+} */
+
+.main-content .tab-content, .donate-column {
+  margin: 4em .75em 1em .75em;
+}
+
+.list{
+  font-size: 1.3em; 
+  margin-left: 1em;
+}
+
+.tab-content p {
+  font-size: 1.3em; 
+  max-width: 95%;
+}
+
+.donate-column{
+  min-width: 100px;
+  max-width: 350px;
+  position: sticky;
+  top: 18em;
+  margin-bottom: 3em;
+  flex-basis: 300px
+}
+
+
+
+main.container {
+  display: flex;
+  margin: 5em auto 2em auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: fit-content;
+
+ 
+}
+
+
+.stop-war {
+  position: sticky;
+  top: 19em;
+  margin-left: 2em;
+}
+

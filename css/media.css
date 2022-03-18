@@ -1,0 +1,12 @@
+@media (max-width: 1024px){
+.tab-content.active{
+  width: 100%;
+  justify-content: center;
+ }
+ .stop-war {
+   margin: 0;
+ }
+ .donate-colomn{
+   margin: 0 auto;
+ }
+}

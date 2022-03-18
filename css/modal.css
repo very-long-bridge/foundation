@@ -1,0 +1,73 @@
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  padding-top: 5vh; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+}
+
+.modal-content {
+  margin: auto auto;
+  display: block;
+  width: 80%;
+  height: 90%;
+  max-width: 700px;
+  box-shadow: 0 2px 16px rgba(224, 224, 76, .9);
+}
+
+#caption {
+  margin: auto; 
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0.5)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(.5)} 
+  to {transform:scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 5vh;
+  right: 5vw;
+  color: #f1f1f1;
+  font-size: 3em;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(224, 224, 76);;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}

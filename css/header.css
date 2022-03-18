@@ -1,0 +1,29 @@
+header{
+  padding: 3em 0;
+  background-image: url('../img/sky.jpg');
+  background-position: 20% 20%;
+  opacity: .7;
+}
+
+.tab-btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start
+}
+.tab-button {
+  border: none;
+  font-size: 1.2em;
+  color: aliceblue;
+  min-width: 20%;
+
+}
+
+.tab-button:hover{
+  box-shadow: .1em .1em .1em .1em rgb(224, 224, 76);
+  color: aliceblue;
+
+}
+
+.tab-button:focus{
+  color: rgb(224, 224, 76);
+}

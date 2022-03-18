@@ -8,13 +8,14 @@ header{
 .tab-btn-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start
+  /* width: 95%; */
+  justify-content: space-around
 }
 .tab-button {
   border: none;
   font-size: 1.2em;
   color: aliceblue;
-  min-width: 20%;
+  /* min-width: 20%; */
 
 }
 

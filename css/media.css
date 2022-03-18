@@ -9,4 +9,7 @@
  .donate-colomn{
    margin: 0 auto;
  }
+ main.container {
+   flex-wrap: wrap;
+ }
 }

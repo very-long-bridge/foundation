@@ -8,7 +8,7 @@
   display: block;
   grid-area: content;
   width: 65%;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
   flex-basis: auto;
 }
 
@@ -17,7 +17,7 @@
 } */
 
 .main-content .tab-content, .donate-column {
-  margin: 4em .75em 1em .75em;
+  margin: 1em .75em 1em .75em;
 }
 
 .list{
@@ -34,7 +34,7 @@
   max-width: 350px;
   position: sticky;
   margin-bottom: 3em;
-  flex-basis: 300px
+  flex-basis: 18em;
 }
 
 
@@ -51,7 +51,14 @@ main.container {
 
 .stop-war {
   position: sticky;
-  top: 19em;
-  margin-left: 2em;
+  top: 18em;
+  margin: 0 auto;
+  width: 15em;
+}
+.stop-war div {
+  margin: 0 auto;
 }
 
+#appView {
+  margin: 0;
+}

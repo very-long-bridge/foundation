@@ -1,23 +1,6 @@
 .tab-content {
+  margin-top: 5em;
 
-  display: none;
-  min-height: 50%;
-
-}
-.tab-content.active{
-  display: block;
-  grid-area: content;
-  width: 65%;
-  margin-bottom: 1em;
-  flex-basis: auto;
-}
-
-/* .main-content{
-  position: relative;
-} */
-
-.main-content .tab-content, .donate-column {
-  margin: 1em .75em 1em .75em;
 }
 
 .list{
@@ -25,9 +8,6 @@
   margin-left: 1em;
 }
 
-.tab-content p {
-  font-size: 1.3em;
-}
 
 .donate-column{
   min-width: 100px;
@@ -39,14 +19,6 @@
 
 
 
-main.container {
-  display: flex;
-  margin: 5em auto 2em auto;
-  justify-content: center;
-  height: fit-content;
-
-
-}
 
 
 .stop-war {
